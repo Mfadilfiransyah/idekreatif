@@ -1,3 +1,12 @@
+<?php
+session_start(); //inisialisasi session
+// Ambil notifikasi jika ada,kemudian hapus dari sesi
+$notification =$_session['notification'] ?? null;
+if ($notification) {
+  unset($_session['notification']);
+}
+
+?>
 <!-- Bootstrap Toast -->
 <?php if ($notification): ?>
   <div id="notifikasi" class="bs-toast toast fade bg-<?= $notification['type'] ?> position-absolute m-3 end-0" role="alert" data-bs-autohide="true">
