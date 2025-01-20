@@ -45,4 +45,11 @@
     <!-- Active State JS -->
     <script src="assets/js/active-state-nav.js"></script>
 </body>
+<!--import js jquery and datatables -->
+<scrip src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/2.2.1/js/datatables.min.js">
+  </script>
+  <script>
+    src="https://cdn.datatables.net/2.2.1/js/datatables.bootstrap5.min.js">
+    </script>
 </html>
